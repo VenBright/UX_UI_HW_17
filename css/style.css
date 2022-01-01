@@ -1,27 +1,43 @@
 .inline-block {
 	display: inline-block;
-	vertical-align: top;
+	vertical-align:top;
 
 }
+#topMenu{
+	padding:10px;
+	text-align:center;
+}
 
-<.logo{
-	width: 23%;
+#bottomMenu{
+	color:white;
+	padding:10px;
+	text-align:center;
+	vertical-align:top;
+}
+body{
+	background-color: #00f7b1;
+}
+
+.logo{
+	width: auto;
 	padding: 1%;
 	text-align: center;
+	margin-left: 0;
+	margin-right: 0;
+	margin-top:0;
+	margin-bottom:0;
 }
 
 .Navigation {	
 	width: 73%;
 	padding: 1%;
-	.ul {
-		width: 50%;
-		margin-left: auto;
-	}
+	
 }
 
 .heroImg{
 	height: 600px;
 	padding: 25px;
+	background-color: #06aa24;
 }
 
 .content{
@@ -29,11 +45,7 @@
 	margin:0 auto;
 }
 
-.footer{
-	color: #373738
-	.ul{
-		display: inline-block;
-		vertical-align: top;
-
-	}
+footer{
+	background-color: #373738;
+	padding:0.125%;
 }
