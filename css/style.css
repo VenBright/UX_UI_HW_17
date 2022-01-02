@@ -3,33 +3,45 @@
 	vertical-align:top;
 
 }
-#topMenu{
+.topMenu{
 	padding:10px;
 	text-align:center;
 }
 
-#bottomMenu{
+
+.topMenu > li {
+	padding:8px;
+	background-color: lightblue;
+	border: black solid 1px;
+	margin: 1px;
+	}
+
+.bottomMenu{
 	color:white;
 	padding:10px;
 	text-align:center;
 	vertical-align:top;
 }
+
+
+.bottomMenu > li {
+	padding:8px;
+	background-color: rgb(15, 16, 17);
+	border: black solid 1px;
+	margin: 1px;
+	}
 body{
 	background-color: #00f7b1;
+	margin: 0px;
 }
 
 .logo{
 	width: auto;
-	padding: 1%;
 	text-align: center;
-	margin-left: 0;
-	margin-right: 0;
-	margin-top:0;
-	margin-bottom:0;
 }
 
 .Navigation {	
-	width: 73%;
+	width: 97%;
 	padding: 1%;
 	
 }
@@ -43,6 +55,8 @@ body{
 .content{
 	width:500px;
 	margin:0 auto;
+	background-color:aliceblue;
+	text-align: center;
 }
 
 footer{
